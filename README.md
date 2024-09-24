@@ -3,16 +3,6 @@
 source: https://devenes.medium.com/step-by-step-guide-to-installing-argocd-on-a-kind-kubernetes-cluster-4bdfd0967b68
 
 1.1 Create a kind-config.yaml
-kind: Cluster
-apiVersion: kind.x-k8s.io/v1alpha4
-nodes:
-  - role: control-plane        
-    extraPortMappings:      
-      - containerPort: 30443        
-        hostPort: 8080        
-        protocol: TCP        
-        listenAddress: "0.0.0.0"
-  - role: worker    
 
 1.2 kind create cluster --name argocd --config kind-config.yaml
 
