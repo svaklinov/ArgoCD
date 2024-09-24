@@ -1,5 +1,10 @@
 # ArgoCD in KinD local Cluster on ubuntu 22.04 LTS
 
+argocd/
+├── manifest/
+│   └── nginx-app.yaml
+
+
 source: https://devenes.medium.com/step-by-step-guide-to-installing-argocd-on-a-kind-kubernetes-cluster-4bdfd0967b68
 
 1.1 Create a kind-config.yaml
