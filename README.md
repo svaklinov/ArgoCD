@@ -1,4 +1,4 @@
-# ArgoCD
+# ArgoCD in KinD local Cluster on ubuntu 22.04 LTS
 
 source: https://devenes.medium.com/step-by-step-guide-to-installing-argocd-on-a-kind-kubernetes-cluster-4bdfd0967b68
 
